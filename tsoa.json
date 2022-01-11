@@ -1,0 +1,24 @@
+{
+    "entryFile": "./src/main.ts",
+    "noImplicitAdditionalProperties": "throw-on-extras",
+    "controllerPathGlobs": ["./src/controllers/**/*controller.ts"],
+    "swagger": {
+      "basePath": "/ffmpeg",
+      "entryFile": "./src/main.ts",
+      "specVersion": 3,
+      "outputDirectory": "./api",
+      "controllerPathGlobs": [
+        "./src/controllers/**/*controller.ts"
+      ]
+    },
+    "routes": {
+      "basePath": "/ffmpeg",
+      "entryFile": "./src/main.ts",
+      "routesDir": "./src/routes",
+      "middleware": "express"
+    },
+    "spec": {
+        "outputDirectory": "./api",
+        "specVersion": 3
+      }
+  }
